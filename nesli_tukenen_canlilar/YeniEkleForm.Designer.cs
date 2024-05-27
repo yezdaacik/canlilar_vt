@@ -44,7 +44,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(28, 18);
+            this.label1.Location = new System.Drawing.Point(35, 14);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(48, 13);
             this.label1.TabIndex = 0;
@@ -53,7 +53,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(4, 54);
+            this.label2.Location = new System.Drawing.Point(14, 45);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(72, 13);
             this.label2.TabIndex = 1;
@@ -62,7 +62,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(14, 96);
+            this.label3.Location = new System.Drawing.Point(21, 82);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(62, 13);
             this.label3.TabIndex = 2;
@@ -71,7 +71,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(35, 139);
+            this.label4.Location = new System.Drawing.Point(35, 117);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(41, 13);
             this.label4.TabIndex = 3;
@@ -86,14 +86,14 @@
             // 
             // txtPopEkle
             // 
-            this.txtPopEkle.Location = new System.Drawing.Point(101, 89);
+            this.txtPopEkle.Location = new System.Drawing.Point(101, 82);
             this.txtPopEkle.Name = "txtPopEkle";
             this.txtPopEkle.Size = new System.Drawing.Size(121, 20);
             this.txtPopEkle.TabIndex = 6;
             // 
             // txtHabitatEkle
             // 
-            this.txtHabitatEkle.Location = new System.Drawing.Point(101, 132);
+            this.txtHabitatEkle.Location = new System.Drawing.Point(101, 117);
             this.txtHabitatEkle.Name = "txtHabitatEkle";
             this.txtHabitatEkle.Size = new System.Drawing.Size(121, 20);
             this.txtHabitatEkle.TabIndex = 7;
@@ -108,16 +108,18 @@
             // 
             // pbResimEkle
             // 
+            this.pbResimEkle.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.pbResimEkle.Location = new System.Drawing.Point(292, 11);
             this.pbResimEkle.Name = "pbResimEkle";
-            this.pbResimEkle.Size = new System.Drawing.Size(115, 141);
+            this.pbResimEkle.Size = new System.Drawing.Size(148, 201);
             this.pbResimEkle.TabIndex = 9;
             this.pbResimEkle.TabStop = false;
             this.pbResimEkle.Click += new System.EventHandler(this.pbResimEkle_Click);
             // 
             // btnEkle
             // 
-            this.btnEkle.Location = new System.Drawing.Point(101, 207);
+            this.btnEkle.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnEkle.Location = new System.Drawing.Point(101, 161);
             this.btnEkle.Name = "btnEkle";
             this.btnEkle.Size = new System.Drawing.Size(121, 51);
             this.btnEkle.TabIndex = 10;
@@ -129,7 +131,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(558, 380);
+            this.ClientSize = new System.Drawing.Size(479, 243);
             this.Controls.Add(this.btnEkle);
             this.Controls.Add(this.pbResimEkle);
             this.Controls.Add(this.cmbUlkeEkle);
